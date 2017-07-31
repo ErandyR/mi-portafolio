@@ -1,8 +1,12 @@
-(function($){
-  $(function(){
+(function ($) {
+    $(function () {
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
 
-  }); 
-})(jQuery); 
+    });
+})(jQuery);
+
+$(document).ready(function () {
+    $('.scrollspy').scrollSpy();
+});
