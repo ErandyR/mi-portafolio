@@ -77,6 +77,9 @@ p {
     .margenTopLogo{
         margin-top: 5%;
     }
+    #sobreMi{
+        height: 70vh;
+    }
 }
 
 
