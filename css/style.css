@@ -27,6 +27,23 @@ p {
     font-size: 2em;
 }
 
+.imagenDegradado{
+    opacity: 0.8;
+}
+
+@media only screen and (min-width: 993px) {
+    #index-banner{
+        height: 550px;
+    }
+    .logoSizeNav{
+        width: 19vh;
+    }
+    .logoImgSize{
+        width: 50%;
+    }
+    
+}
+
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
         position: absolute;
@@ -48,8 +65,17 @@ p {
         font-size: 1.5em;
         margin-top: 0;
     }
-    .logoSize{
+    .logoSizeNav{
         width: 16vh;
+        margin-left: 85%;
+    }
+    .logoImgSize{
+        display: flex;
+        float: left;
+        width: 30vh;
+    }
+    .margenTopLogo{
+        margin-top: 5%;
     }
 }
 
