@@ -33,13 +33,19 @@ p {
 
 @media only screen and (min-width: 993px) {
     #index-banner{
-        height: 550px;
+        height: 650px;
     }
     .logoSizeNav{
         width: 19vh;
     }
     .logoImgSize{
         width: 50%;
+    }
+    #habilidades{
+        height: 620px;
+    }
+    .textSize{
+       font-size: 150%; 
     }
     
 }
@@ -52,6 +58,12 @@ p {
     #index-banner .section {
         top: 10%;
     }
+    .textoSobreMi {
+        margin-top: -35%;
+    }
+    #sobreMi{
+        height: 95vh;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,7 +71,7 @@ p {
         top: 0;
     }
     .textoSobreMi {
-        margin-top: -40%;
+        margin-top: -65%;
     }
     .anchoLetra {
         font-size: 1.5em;
