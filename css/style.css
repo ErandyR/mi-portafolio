@@ -102,7 +102,7 @@ p {
         display: none;
     }
     .nav-mobil{
-        display: inline;
+        display: block;
     }
 }
 
